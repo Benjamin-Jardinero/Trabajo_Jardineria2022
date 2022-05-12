@@ -1,0 +1,30 @@
+.columna{
+    width: 100%;
+    div{ /*Div Padre*/
+        display: flex;
+        width: 100%;
+        .columna__div--img{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+        .columna__div--text{
+            display: flex;
+            width: 50%;
+            div{
+                display: flex;
+            }
+            h1{
+                text-align: center;
+            }
+            ul{
+                list-style: circle;
+                li{
+                    font-size: 2rem;
+                }
+            }
+            color: white;
+        }
+    }
+}

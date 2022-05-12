@@ -1,0 +1,25 @@
+$green:   #198754;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body__principal{
+    background-color: rgb(43, 65, 43)
+}
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.logo__a{
+    :hover{
+        border: 2px dotted green;
+    }
+}
+.header_div{
+    justify-content: flex-end;
+    a{
+        font-size: 1.5rem;
+    }
+}

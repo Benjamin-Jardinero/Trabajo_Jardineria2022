@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body__principal {
+  background-color: #2b412b;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.logo__a :hover {
+  border: 2px dotted green;
+}
+
+.header_div {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header_div a {
+  font-size: 1.5rem;
+}
+
+section {
+  margin: 20px auto;
+}
+
+section div h5, section div p {
+  background-color: black;
+  border-radius: 30%;
+}
+
+section div img {
+  height: 70vh;
+}
+
+.columna {
+  width: 100%;
+}
+
+.columna div {
+  /*Div Padre*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.columna div .columna__div--img {
+  width: 50%;
+}
+
+.columna div .columna__div--img img {
+  width: 100%;
+}
+
+.columna div .columna__div--text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  color: white;
+}
+
+.columna div .columna__div--text div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.columna div .columna__div--text h1 {
+  text-align: center;
+}
+
+.columna div .columna__div--text ul {
+  list-style: circle;
+}
+
+.columna div .columna__div--text ul li {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
