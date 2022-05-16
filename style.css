@@ -40,10 +40,6 @@ section div img {
   height: 70vh;
 }
 
-.columna {
-  width: 100%;
-}
-
 .columna div {
   /*Div Padre*/
   display: -webkit-box;
@@ -58,24 +54,21 @@ section div img {
 
 .columna div .columna__div--img img {
   width: 100%;
+  border-radius: 10%;
 }
 
 .columna div .columna__div--text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 50%;
   color: white;
 }
 
-.columna div .columna__div--text div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .columna div .columna__div--text h1 {
   text-align: center;
+  margin-bottom: 30px;
+  font-family: cursive;
+  border: 2px solid #7db37d;
+  border-radius: 20%;
+  background-color: #071d02;
 }
 
 .columna div .columna__div--text ul {
@@ -83,6 +76,7 @@ section div img {
 }
 
 .columna div .columna__div--text ul li {
+  margin-left: 10px;
   font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
