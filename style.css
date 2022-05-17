@@ -79,4 +79,62 @@ section div img {
   margin-left: 10px;
   font-size: 2rem;
 }
+
+footer {
+  margin-top: 20px;
+}
+
+.footer_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  width: 100%;
+}
+
+.footer_div ul {
+  list-style: none;
+}
+
+.footer_div .footer_div-1 {
+  width: 33.3%;
+  text-align: center;
+}
+
+.footer_div .footer_div-1 img {
+  width: 120px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 5px solid #2b412b;
+  border-radius: 10%;
+}
+
+.footer_div .footer_div-1 p {
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+
+.footer_div .footer_div-2 {
+  width: 33.3%;
+}
+
+.footer_div .footer_div-2 h2 {
+  margin: 20px;
+}
+
+.footer_div .footer_div-2 a {
+  color: white;
+}
+
+.footer_div .footer_div-2 a :hover {
+  color: #b5ffb5;
+}
+
+.footer_div .footer_div-3 {
+  width: 33.3%;
+}
+
+.footer_div .footer_div-3 h2 {
+  margin: 20px;
+}
 /*# sourceMappingURL=style.css.map */
