@@ -184,4 +184,50 @@ footer {
     width: 50%;
   }
 }
+
+.contacto_main {
+  background-image: url(img/Contacto2.jpg);
+  margin-top: 20px;
+  height: 650px;
+  background-size: 100%;
+}
+
+.contacto_main div h1 {
+  background-color: black;
+  border: 2px solid #d1ffcb;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
+
+.contacto_main-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px auto;
+}
+
+.contacto_main-form .main_form-div {
+  width: 50%;
+}
+
+.contacto_main-form .main_form-comentario {
+  width: 50%;
+}
+
+.contacto_main-form .main_form-comentario textarea {
+  height: 100%;
+}
+
+.main_form-texto {
+  margin-top: 20px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.main_form-texto ul {
+  list-style: none;
+}
 /*# sourceMappingURL=style.css.map */

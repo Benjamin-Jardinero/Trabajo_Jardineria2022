@@ -43,75 +43,49 @@
            </nav>
     </header>
 
-    <section class="bg-dark">
-      <div id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/clientes - trabajos/Trabajo 1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Country "El venado I"</h5>
-              <p>Mantenimiento de Espacios Verdes</p>
+    <main class="bg-dark">
+        <div class="container contacto_main">
+            <div>
+                <h1>Contacto</h1>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/clientes - trabajos/Trabajo 2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Country "El venado I"</h5>
-              <p>Cortes de Cesped, Podas, etc.</p>
+            <div class="contacto_main-form">
+                <div class="main_form-div">
+                    <form action="" method="post">
+                        <div class="form-floating mb-5">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
+                            <label for="floatingInput">Nombre</label>
+                        </div>
+            
+                        <div class="form-floating mb-5">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Telefono">
+                            <label for="floatingInput">Telefono</label>
+                        </div>
+            
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="Correo Electronico">
+                            <label for="floatingInput">Correo Electronico</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-floating main_form-comentario">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" maxlength="380"></textarea>
+                        <label for="floatingTextarea2">Mensaje</label>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/clientes - trabajos/Trabajo 3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Country "El venado I"</h5>
-              <p>Jardineria y Mantenimiento</p>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-success" type="submit">Enviar formulario</button>
+                <button class="btn btn-dark" type="reset">Limpiar Formulario</button>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/clientes - trabajos/Trabajo 4.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Municipalidad de Esteban Echeverria</h5>
-              <p>Diseño de Jardines y Plantaciones.</p>
+            <div class="main_form-texto">
+                <h3>¡Contactate con nosotros!</h3>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> 1127088361</li>
+                    <li><i class="fa-solid fa-at"></i> benjaminlazarte123@gmail.com</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Buenos Aires / 9 de Abril</li>
+                </ul>
             </div>
-          </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-
-    <aside class="columna bg-dark">
-      <div class="container">
-        <div class="columna__div--img">
-          <img src="img/section.jpeg" alt="Portada">
-        </div>
-        <div class="columna__div--text">
-            <ul>
-              <h1>Servicios que ofrecemos</h1>
-              <li>Mantenimiento de Espacios Verdes.</li>
-              <li>Limpieza de Canteros.</li>
-              <li>Jardineria y Mantenimientos de Binders.</li>
-              <li>Podas en altura.</li>
-              <li>Sistemas de riego (Manual y Automatico).</li>
-              <li>Diseños de Jardines.</li>
-              <li>Nivelación y Plantaciones.</li>
-              <li>Colocación de cesped.</li>
-            </ul>
-        </div>
-      </div>
-    </aside>
+    </main>
 
     <footer class="bg-dark">
       <div class="footer_div">
