@@ -55,3 +55,100 @@ section{
         }
     }
 }
+
+/* CLIENTES */
+
+#grilla_section{
+    display: grid;
+    grid-template-areas: 
+    "alicia alicia2"
+    "title title"
+    "municipio municipioText"
+    "textcli textcli"
+    "muniText2 municipio2"
+    "textCoun textCoun"
+    "img1 img2"
+    "textCoun2 textCoun2"
+    "imgdes1 imgdes2"
+    ;
+    grid-template-columns: 49% 49%;
+    grid-column-gap: 2%;
+
+    .trabajo_alicia{
+        width: 100%;
+        grid-area: alicia;
+    }
+    .trabajo_alicia2{
+        width: 100%;
+        grid-area: alicia2;
+    }
+    .trabajo_municipio{
+        width: 100%;
+        grid-area: municipio;
+    }
+    .trabajo_municipio-text{
+        width: 100%;
+        grid-area: municipioText;
+        
+    }
+    .trabajo_municipio2{
+        width: 100%;
+        grid-area: municipio2;
+    }
+    .trabajo_municipio-text2{
+        width: 100%;
+        grid-area: muniText2;
+    }
+    .trabajo_country{
+        width: 100%;
+        grid-area: img1;
+    }
+    .trabajo_country2{
+        width: 100%;
+        grid-area: img2;
+    }
+    .trabajo_country-despues{
+        width: 100%;
+        grid-area: imgdes1;
+    }
+    .trabajo_country-despues2{
+        width: 100%;
+        grid-area: imgdes2;
+    }
+    .titulo_muni{
+        width: 100%;
+        grid-area: title;
+    }
+    .title_country{
+        width: 100%;
+        grid-area: textCoun;
+    }
+    .title_country2{
+        width: 100%;
+        grid-area: textCoun2;
+    }
+    .title_clientes{
+        width: 100%;
+        grid-area: textcli;
+    }
+    p{
+        color: white;
+        font-size: 2.4rem;
+    }
+    img{
+        width: 100%;
+    }  
+    h1{
+        background-color: black;
+        border: 2px solid white;
+        border-radius: 30%;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: cursive;
+        color: white;
+    }
+    h1:hover{
+        background-color: rgba(13, 255, 0, 0.064);
+    }
+    
+}

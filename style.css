@@ -98,6 +98,141 @@ section div img {
   font-size: 1.2rem;
 }
 
+/* CLIENTES */
+#grilla_section {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "alicia alicia2" "title title" "municipio municipioText" "textcli textcli" "muniText2 municipio2" "textCoun textCoun" "img1 img2" "textCoun2 textCoun2" "imgdes1 imgdes2";
+  -ms-grid-columns: 49% 49%;
+      grid-template-columns: 49% 49%;
+  grid-column-gap: 2%;
+}
+
+#grilla_section .trabajo_alicia {
+  width: 100%;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: alicia;
+}
+
+#grilla_section .trabajo_alicia2 {
+  width: 100%;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: alicia2;
+}
+
+#grilla_section .trabajo_municipio {
+  width: 100%;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: municipio;
+}
+
+#grilla_section .trabajo_municipio-text {
+  width: 100%;
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: municipioText;
+}
+
+#grilla_section .trabajo_municipio2 {
+  width: 100%;
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  grid-area: municipio2;
+}
+
+#grilla_section .trabajo_municipio-text2 {
+  width: 100%;
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: muniText2;
+}
+
+#grilla_section .trabajo_country {
+  width: 100%;
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+  grid-area: img1;
+}
+
+#grilla_section .trabajo_country2 {
+  width: 100%;
+  -ms-grid-row: 7;
+  -ms-grid-column: 2;
+  grid-area: img2;
+}
+
+#grilla_section .trabajo_country-despues {
+  width: 100%;
+  -ms-grid-row: 9;
+  -ms-grid-column: 1;
+  grid-area: imgdes1;
+}
+
+#grilla_section .trabajo_country-despues2 {
+  width: 100%;
+  -ms-grid-row: 9;
+  -ms-grid-column: 2;
+  grid-area: imgdes2;
+}
+
+#grilla_section .titulo_muni {
+  width: 100%;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: title;
+}
+
+#grilla_section .title_country {
+  width: 100%;
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: textCoun;
+}
+
+#grilla_section .title_country2 {
+  width: 100%;
+  -ms-grid-row: 8;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: textCoun2;
+}
+
+#grilla_section .title_clientes {
+  width: 100%;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: textcli;
+}
+
+#grilla_section p {
+  color: white;
+  font-size: 2.4rem;
+}
+
+#grilla_section img {
+  width: 100%;
+}
+
+#grilla_section h1 {
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 30%;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: cursive;
+  color: white;
+}
+
+#grilla_section h1:hover {
+  background-color: rgba(13, 255, 0, 0.064);
+}
+
 .columna div {
   /*Div Padre*/
   display: -webkit-box;
@@ -154,6 +289,15 @@ section div img {
   }
   .columna div .columna__div--text h1 {
     margin: 5px auto;
+  }
+  .columna div .columna__div--text ul {
+    list-style: none;
+  }
+  .columna div .columna__div--text li {
+    text-decoration: underline;
+  }
+  .columna div .columna__div--text li:hover {
+    color: #7db37d;
   }
 }
 

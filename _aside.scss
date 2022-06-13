@@ -44,6 +44,16 @@
                 h1{
                     margin: 5px auto;
                 }
+                ul{
+                    list-style: none;
+
+                }
+                li{
+                    text-decoration: underline;
+                }
+                li:hover{
+                    color: rgb(125, 179, 125);
+                }
             }
 
         }
