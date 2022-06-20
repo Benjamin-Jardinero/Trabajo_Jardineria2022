@@ -141,7 +141,6 @@ section{
     h1{
         background-color: black;
         border: 2px solid white;
-        border-radius: 30%;
         text-align: center;
         font-size: 2.5rem;
         font-family: cursive;
@@ -151,4 +150,68 @@ section{
         background-color: rgba(13, 255, 0, 0.064);
     }
     
+}
+
+@media(max-width: 1106px){
+    #grilla_section{
+        padding: 20px;
+        grid-template-areas: 
+        "alicia"
+        "alicia2"
+        "title"
+        "municipio"
+        "municipioText"
+        "textcli"
+        "municipio2"
+        "muniText2"
+        "textCoun"
+        "img1"
+        "img2"
+        "textCoun2"
+        "imgdes1"
+        "imgdes2"
+        ;
+    grid-template-columns: 100%;
+    }
+}
+#medios-de-pago{
+    button{
+        color: white;
+        border: 2px solid rgb(125, 179, 125);
+        border-radius: 20%;
+        background-color: rgb(7, 29, 2);
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-family: cursive;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    li{
+        margin: 0 20px;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        margin: 5px 0 ;
+    }
+    .voSosUnBoton{
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+.desaparecer{
+    display: none;
+}
+@media(max-width: 758px){
+    #medios-de-pago{
+        .desaparecer-758px{
+            display: none;
+        }
+        img{
+            width: 80px;
+        }
+    }
 }

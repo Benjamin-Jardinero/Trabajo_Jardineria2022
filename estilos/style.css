@@ -222,7 +222,6 @@ section div img {
 #grilla_section h1 {
   background-color: black;
   border: 2px solid white;
-  border-radius: 30%;
   text-align: center;
   font-size: 2.5rem;
   font-family: cursive;
@@ -231,6 +230,63 @@ section div img {
 
 #grilla_section h1:hover {
   background-color: rgba(13, 255, 0, 0.064);
+}
+
+@media (max-width: 1106px) {
+  #grilla_section {
+    padding: 20px;
+        grid-template-areas: "alicia" "alicia2" "title" "municipio" "municipioText" "textcli" "municipio2" "muniText2" "textCoun" "img1" "img2" "textCoun2" "imgdes1" "imgdes2";
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+}
+
+#medios-de-pago button {
+  color: white;
+  border: 2px solid #7db37d;
+  border-radius: 20%;
+  background-color: #071d02;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+#medios-de-pago ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+#medios-de-pago li {
+  margin: 0 20px;
+}
+
+#medios-de-pago img {
+  width: 50px;
+  height: 50px;
+  margin: 5px 0;
+}
+
+#medios-de-pago .voSosUnBoton {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.desaparecer {
+  display: none;
+}
+
+@media (max-width: 758px) {
+  #medios-de-pago .desaparecer-758px {
+    display: none;
+  }
+  #medios-de-pago img {
+    width: 80px;
+  }
 }
 
 .columna div {
@@ -388,7 +444,7 @@ footer {
 }
 
 .contacto_main {
-  background-image: url(img/Contacto2.jpg);
+  background-image: url(/img/form.jpg);
   margin-top: 20px;
   height: 650px;
   background-size: 100%;
@@ -431,5 +487,10 @@ footer {
 
 .main_form-texto ul {
   list-style: none;
+}
+
+.main_form-texto a {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

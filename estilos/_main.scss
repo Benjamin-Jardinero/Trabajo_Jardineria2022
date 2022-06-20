@@ -1,5 +1,5 @@
 .contacto_main{
-    background-image: url(img/Contacto2.jpg);
+    background-image: url(/img/form.jpg);
     margin-top: 20px;
     height: 650px;
     background-size: 100%;
@@ -35,5 +35,9 @@
     text-align: center;
     ul{
         list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: white;
     }
 }
