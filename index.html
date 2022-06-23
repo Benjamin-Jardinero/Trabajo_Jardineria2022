@@ -112,12 +112,12 @@
         </div>
       </div>
     </aside>
-    
+
     <section id="medios-de-pago" class="bg-dark">
-      <div class="voSosUnBoton">
-        <button onclick="aparecerdesaparecer()">Aceptamos los siguientes medios de pago</button>
-      </div>
-      <div class="medios_pago desaparecer">
+      <div class="medios_pago ">
+        <div class="voSosUnBoton">
+          <h1>Aceptamos los siguientes medios de pago</h1>
+        </div>
         <ul>
           <li>
             <img src="img/medios de pago/banco-provincia.png" alt="" srcset="">
@@ -140,7 +140,7 @@
           <li class="desaparecer-758px">
             <img src="img/medios de pago/Red_link_logo.svg" alt="" srcset="">
           </li>
-          <li class="desaparecer-758px">
+          <li>
             <img src="img/medios de pago/Visa_Inc._logo.svg.png" alt="" srcset="">
           </li>
         </ul>
@@ -179,14 +179,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ffb39b6180.js" crossorigin="anonymous"></script>
-    <script>
-      function aparecerdesaparecer(){
-        var aparDes = document.getElementsByClassName('medios_pago');
-
-        for(var i = 0; i < aparDes.length;i++){
-          aparDes[i].classList.toggle('desaparecer');
-        }
-      }
-    </script>
   </body>
 </html>

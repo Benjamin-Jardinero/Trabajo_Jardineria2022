@@ -241,16 +241,6 @@ section div img {
   }
 }
 
-#medios-de-pago button {
-  color: white;
-  border: 2px solid #7db37d;
-  border-radius: 20%;
-  background-color: #071d02;
-  text-transform: uppercase;
-  font-size: 2rem;
-  font-family: cursive;
-}
-
 #medios-de-pago ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -274,10 +264,8 @@ section div img {
 #medios-de-pago .voSosUnBoton {
   text-align: center;
   margin: 10px 0;
-}
-
-.desaparecer {
-  display: none;
+  color: white;
+  font-family: cursive;
 }
 
 @media (max-width: 758px) {
@@ -285,7 +273,7 @@ section div img {
     display: none;
   }
   #medios-de-pago img {
-    width: 80px;
+    width: 50px;
   }
 }
 
@@ -348,9 +336,6 @@ section div img {
   }
   .columna div .columna__div--text ul {
     list-style: none;
-  }
-  .columna div .columna__div--text li {
-    text-decoration: underline;
   }
   .columna div .columna__div--text li:hover {
     color: #7db37d;
