@@ -61,7 +61,7 @@ section div img {
 
 .section_sobremi .section_maps {
   width: 100%;
-  height: 400px;
+  height: 480px;
   text-align: center;
 }
 
@@ -71,7 +71,7 @@ section div img {
 }
 
 .section_sobremi .section_sobremi-contacto {
-  width: 60%;
+  width: 100%;
 }
 
 .section_sobremi .section_sobremi-contacto div {
@@ -96,6 +96,11 @@ section div img {
   text-align: center;
   margin: auto;
   font-size: 1.2rem;
+}
+
+.section_sobremi .section_contacto-num p:hover {
+  color: black;
+  background-color: white;
 }
 
 /* CLIENTES */
@@ -222,6 +227,7 @@ section div img {
 #grilla_section h1 {
   background-color: black;
   border: 2px solid white;
+  border-radius: 20px 0 20px 0;
   text-align: center;
   font-size: 2.5rem;
   font-family: cursive;
@@ -236,6 +242,7 @@ section div img {
   #grilla_section {
     padding: 20px;
         grid-template-areas: "alicia" "alicia2" "title" "municipio" "municipioText" "textcli" "municipio2" "muniText2" "textCoun" "img1" "img2" "textCoun2" "imgdes1" "imgdes2";
+    grid-row-gap: 15px;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
   }
@@ -269,6 +276,10 @@ section div img {
   font-family: cursive;
 }
 
+#medios-de-pago .voSosUnBoton h1:hover {
+  color: #b5ffb5;
+}
+
 @media (max-width: 758px) {
   #medios-de-pago .desaparecer-758px {
     display: none;
@@ -293,20 +304,27 @@ section div img {
 
 .columna div .columna__div--img img {
   width: 100%;
-  border-radius: 10%;
+  border-radius: 20px 0 20px 0;
 }
 
 .columna div .columna__div--text {
+  display: inline-block;
   width: 50%;
   color: white;
 }
 
+.columna div .columna__div--text .titulo-columna {
+  width: 100%;
+  margin-left: 3px;
+}
+
 .columna div .columna__div--text h1 {
+  width: 100%;
   text-align: center;
   margin-bottom: 30px;
   font-family: cursive;
   border: 2px solid #7db37d;
-  border-radius: 20%;
+  border-radius: 0 20px 0 20px;
   background-color: #071d02;
 }
 
@@ -315,13 +333,13 @@ section div img {
 }
 
 .columna div .columna__div--text ul li {
-  margin-left: 10px;
+  margin-left: 5px;
   font-size: 2rem;
 }
 
 @media (max-width: 767px) {
   .columna {
-    text-align: center;
+    width: 100%;
   }
   .columna div {
     display: inline-block;
@@ -334,9 +352,6 @@ section div img {
   }
   .columna div .columna__div--text h1 {
     margin: 5px auto;
-  }
-  .columna div .columna__div--text ul {
-    list-style: none;
   }
   .columna div .columna__div--text li:hover {
     color: #7db37d;
@@ -430,7 +445,8 @@ footer {
 }
 
 .contacto_main {
-  background-image: url(/img/form.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(#002e00), to(white));
+  background: linear-gradient(#002e00, white);
   margin-top: 20px;
   height: 650px;
   background-size: 100%;
@@ -439,28 +455,31 @@ footer {
 .contacto_main div h1 {
   background-color: black;
   border: 2px solid #d1ffcb;
+  border-radius: 20px 0 20px 0;
   text-transform: uppercase;
   text-align: center;
   color: white;
   font-family: cursive;
 }
 
-.contacto_main-form {
+.form-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 50px auto;
+  width: 100%;
+  margin: 20px 0;
 }
 
-.contacto_main-form .main_form-div {
+.form-flex .form-label {
   width: 50%;
 }
 
-.contacto_main-form .main_form-comentario {
+.form-flex .form-mensaje {
   width: 50%;
+  height: 270px;
 }
 
-.contacto_main-form .main_form-comentario textarea {
+.form-flex .form-mensaje textarea {
   height: 100%;
 }
 
@@ -478,5 +497,27 @@ footer {
 .main_form-texto a {
   text-decoration: none;
   color: white;
+}
+
+@media (max-width: 575px) {
+  .contacto_main {
+    height: auto;
+    padding: 10px;
+  }
+  .form-flex {
+    display: inline-block;
+    width: 100%;
+  }
+  .form-flex .form-label {
+    width: 100%;
+  }
+  .form-flex .form-mensaje {
+    margin: 20px 0;
+    width: 100%;
+    height: 180px;
+  }
+  .form-flex .form-mensaje textarea {
+    height: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

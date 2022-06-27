@@ -48,34 +48,40 @@
             <div>
                 <h1>Contacto</h1>
             </div>
-            <div class="contacto_main-form">
-                <div class="main_form-div">
-                    <form action="" method="post">
-                        <div class="form-floating mb-5">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
-                            <label for="floatingInput">Nombre</label>
-                        </div>
-            
-                        <div class="form-floating mb-5">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="Telefono">
-                            <label for="floatingInput">Telefono</label>
-                        </div>
-            
-                        <div class="form-floating">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="Correo Electronico">
-                            <label for="floatingInput">Correo Electronico</label>
-                        </div>
-                    </form>
+              <form method="POST" class="form-contacto">
+                <div class="form-flex">
+
+                  <div class="form-label">
+                    <div class="form-floating mb-5">
+                      <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
+                      <label for="floatingInput">Nombre</label>
+                    </div>
+                
+                    <div class="form-floating mb-5">
+                      <input type="text" class="form-control" id="floatingInput" placeholder="Telefono">
+                      <label for="floatingInput">Telefono</label>
+                     </div>
+                
+                    <div class="form-floating">
+                      <input type="email" class="form-control" id="floatingInput" placeholder="Correo Electronico">
+                      <label for="floatingInput">Correo Electronico</label>
+                    </div>
+                  </div>
+
+                  <div class="form-floating form-mensaje">
+                      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" maxlength="380"></textarea>
+                      <label for="floatingTextarea2">Mensaje</label>
+                  </div>
+              </div>
+                
+                                     
+                <div class="d-grid gap-2 col-6 mx-auto boton-block">
+                  <button class="btn btn-success" type="submit">Enviar formulario</button>
+                  <button class="btn btn-dark" type="reset">Limpiar Formulario</button>
                 </div>
-                <div class="form-floating main_form-comentario">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" maxlength="380"></textarea>
-                        <label for="floatingTextarea2">Mensaje</label>
-                </div>
-            </div>
-            <div class="d-grid gap-2 col-6 mx-auto">
-                <button class="btn btn-success" type="submit">Enviar formulario</button>
-                <button class="btn btn-dark" type="reset">Limpiar Formulario</button>
-            </div>
+
+              </form>
+            
             <div class="main_form-texto">
                 <h3>¡Contactate con nosotros!</h3>
                 <ul>

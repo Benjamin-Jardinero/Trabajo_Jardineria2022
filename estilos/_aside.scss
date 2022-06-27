@@ -7,23 +7,29 @@
             width: 50%;
             img{
                 width: 100%;
-                border-radius: 10%;
+                border-radius: 20px 0 20px 0;
             }
         }
         .columna__div--text{
+            display: inline-block;
             width: 50%;
+            .titulo-columna{
+                width: 100%;
+                margin-left: 3px;
+            }
             h1{
+                width: 100%;
                 text-align: center;
                 margin-bottom: 30px;
                 font-family: cursive;
                 border: 2px solid rgb(125, 179, 125);
-                border-radius: 20%;
+                border-radius: 0 20px 0 20px;
                 background-color: rgb(7, 29, 2);
             }
             ul{
                 list-style: circle;
                 li{
-                    margin-left: 10px;
+                    margin-left: 5px;
                     font-size: 2rem;
                 }
             }
@@ -33,7 +39,7 @@
 }
 @media(max-width: 767px){
     .columna{
-        text-align: center;
+        width: 100%;
         div{
             display: inline-block;
             .columna__div--img{
@@ -44,16 +50,11 @@
                 h1{
                     margin: 5px auto;
                 }
-                ul{
-                    list-style: none;
-
-                }
                 li:hover{
                     color: rgb(125, 179, 125);
                 }
             }
 
         }
-        
     }
 }

@@ -1,5 +1,5 @@
 .contacto_main{
-    background-image: url(/img/form.jpg);
+    background:linear-gradient(rgb(0, 46, 0), rgb(255, 255, 255));
     margin-top: 20px;
     height: 650px;
     background-size: 100%;
@@ -8,6 +8,7 @@
         h1{
             background-color: black;
             border: 2px solid rgb(209, 255, 203);
+            border-radius: 20px 0 20px 0;
             text-transform: uppercase;
             text-align: center;
             color: white;
@@ -15,19 +16,22 @@
         }
     }
 }
-.contacto_main-form{
+.form-flex{
     display: flex;
-    margin: 50px auto;
-    .main_form-div{
+    width: 100%;
+    margin: 20px 0;
+    .form-label{
         width: 50%;
     }
-    .main_form-comentario{
+    .form-mensaje{
         width: 50%;
+        height: 270px;
         textarea{
             height: 100%;
         }
     }
 }
+
 .main_form-texto{
     margin-top: 20px;
     color: white;
@@ -39,5 +43,27 @@
     a{
         text-decoration: none;
         color: white;
+    }
+}
+@media(max-width: 575px){
+    .contacto_main{
+        height: auto;
+        padding: 10px;
+    }
+    .form-flex{
+        display: inline-block;
+        width: 100%;
+    .form-label{
+        width: 100%;
+
+    }
+    .form-mensaje{
+        margin: 20px 0;
+        width: 100%;
+        height: 180px;
+          textarea{
+            height: 100%;
+           }
+     }    
     }
 }
