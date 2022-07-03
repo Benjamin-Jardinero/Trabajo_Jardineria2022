@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -58,6 +59,7 @@
   }
 }
 
+/*INDEX*/
 section {
   margin: 20px auto;
 }
@@ -71,6 +73,7 @@ section div img {
   height: 70vh;
 }
 
+/*SOBRE MÍ*/
 .section_sobremi {
   color: white;
 }
@@ -260,6 +263,11 @@ section div img {
 
 #grilla_section img {
   width: 100%;
+  opacity: 0.2;
+}
+
+#grilla_section img:hover {
+  opacity: 1;
 }
 
 #grilla_section h1 {
@@ -286,6 +294,9 @@ section div img {
     grid-row-gap: 15px;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
+  }
+  #grilla_section img {
+    opacity: 1.0;
   }
 }
 
@@ -330,6 +341,7 @@ section div img {
   }
 }
 
+/*INDEX - COLUMNA*/
 .columna div {
   /*Div Padre*/
   display: -webkit-box;
@@ -487,9 +499,10 @@ footer {
   }
 }
 
+/*CONTACTO*/
 .contacto_main {
-  background: -webkit-gradient(linear, left top, left bottom, from(#002e00), to(white));
-  background: linear-gradient(#002e00, white);
+  background: -webkit-gradient(linear, left top, right top, from(#1B4D3E), to(#ACE1AF));
+  background: linear-gradient(90deg, #1B4D3E, #ACE1AF);
   margin-top: 20px;
   height: 650px;
   background-size: 100%;

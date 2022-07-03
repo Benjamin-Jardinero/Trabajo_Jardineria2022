@@ -1,3 +1,5 @@
+/*INDEX*/
+
 section{
     margin: 20px auto;
     div{
@@ -11,6 +13,8 @@ section{
     }
     
 }
+/*SOBRE MÍ*/
+
 .section_sobremi{
     color: white;
     h1{
@@ -148,6 +152,10 @@ section{
     }
     img{
         width: 100%;
+        opacity: 0.2;
+    }
+    img:hover{
+        opacity: 1;
     }  
     h1{
         background-color: black;
@@ -187,6 +195,9 @@ section{
         ;
         grid-row-gap: 15px;
         grid-template-columns: 100%;
+        img{
+            opacity: 1.0;
+        }
     }
 }
 #medios-de-pago{
