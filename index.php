@@ -7,42 +7,13 @@
     <title>Inicio / Benja Lazarte</title>
     <link rel="icon" href="img/logo/lawn-mower-384589_640.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
 <body class="bg-dark">
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
- 
-               <a class="navbar-brand logo__a" href="index.html">
-                 <img src="img/logo/Blanco y Verde Hojas Jardinería Logo.jpg" alt="Logo"  class="d-inline-block align-text-top logo">
-               </a>
- 
-               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-               </button>
- 
-               <div class="collapse navbar-collapse header_div" id="navbarSupportedContent">
-                 <ul class="navbar-nav me-5 mb-2 mb-lg-0">
-                   <li class="nav-item ">
-                     <a class="nav-link" aria-current="page" href="clientes.html">Clientes</a>
-                   </li>
-                   <li class="nav-item">
-                     <a class="nav-link" href="sobremi.html">Sobre mí</a>
-                   </li>
-                    <li class="nav-item">
-                     <a class="nav-link" href="contacto.html">Contacto</a>
-                   </li>
-                 </ul>
-                 <form class="d-flex">
-                     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                     <button class="btn btn-outline-light" type="submit">Buscar</button>
-                  </form>
-               </div>
-             </div>
-           </nav>
-    </header>
+
+    <!-- Incluimos el header -->
+    <?php include("includes/header.php");?>
 
     <section>
       <div class="titulo-seccion">
@@ -96,9 +67,8 @@
       </div>
     </section>
 
-    <div class="posicion-fixed">
-      <a href="https://api.whatsapp.com/send?phone=541127088361"><i class="bi bi-whatsapp"> Contacto</i></a></i>
-    </div>
+    <!-- Incluimos el wsp-fixed -->
+    <?php include("includes/fixed-wsp.php");?>
 
     <aside class="columna">
       <div class="container-fluid container-services">
@@ -246,35 +216,8 @@
       </div>
     </aside>
 
-    <footer class="bg-dark">
-      <div class="footer_div">
-        <div class="footer_div-1">          
-          <a href="index.html">
-          <img src="img/logo/Blanco y Verde Hojas Jardinería Logo.jpg" alt="logo">
-          <p>Jardineria profesional</p>
-          </a> 
-        </div>
-        <div class="footer_div-2">
-          <h2>Contacto</h2>
-          <ul>
-            
-            <li><a href="https://www.facebook.com/BenjaCARP2/"><i class="fa-brands fa-facebook"> </i> Facebook</a></li>
-            <li><a href="https://www.instagram.com/benja_laza/?hl=es-la"><i class="fa-brands fa-instagram"> </i> Instagram</a></li>
-            <li><a href="https://twitter.com/BenjaLaza1"><i class="fa-brands fa-twitter"> </i> Twitter</a></li>
-            <li><a href="https://api.whatsapp.com/send?phone=541127088361"><i class="fa-brands fa-whatsapp"> </i> Whatsapp</a></li>
-          </ul>
-        </div>
-        <div class="footer_div-3">
-          <h2>Mas Información</h2>
-          <ul>
-            <li><i class="bi bi-lock-fill"></i> Privacidad</li>
-            <li><i class="bi bi-boxes"></i> Cookies</li>
-            <li><i class="bi bi-globe2"></i> Legal</li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-
+    <!-- Incluimos el footer -->
+    <?php include("includes/footer.php");?>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ffb39b6180.js" crossorigin="anonymous"></script>
