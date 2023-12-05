@@ -16,6 +16,9 @@ section{
         h1{
             color: white;
             font-family: cursive;
+            text-shadow: 2px 2px 2px rgb(116, 116, 116);
+            letter-spacing: 3px;
+            word-spacing: 5px;
         }
     }
     div{
@@ -38,52 +41,30 @@ section{
 .section_sobremi{
     color: white;
     h1{
-        margin-left: 5px;
-        text-transform: uppercase;
-        text-shadow: 2px 2px 2px rgb(100, 100, 100);
-        text-decoration: underline;
+        width: 100%;
+        margin: 20px auto;
+        font-family: cursive;
+        text-shadow: 2px 2px 2px rgb(116, 116, 116);
+        letter-spacing: 3px;
+        word-spacing: 5px;
     }
     h3{
-        text-transform: uppercase;
         text-align: center;
         margin: 30px 0;
+        font-size: 2rem;
         text-shadow: 2px 2px 1px rgb(70, 89, 70);
     }
     p{
-        font-size: 2rem;
+        font-size: 1.8rem;
         text-shadow: 2px 2px 4px rgb(66, 73, 66);
     }
     .section_maps{
-        width: 100%;
-        height: 480px;
+        width: 80%;
+        height: 580px;
         text-align: center;
         iframe{
             width: 100%;
             height: 100%;
-        }
-    }
-    .section_sobremi-contacto{
-        width: 100%;
-        div{
-            background-color: black;
-        }
-        img{
-            width: 100%;
-        }
-    }
-    .section_contacto-num{
-        display: flex;
-        div{
-            width: 50%;
-        }
-        p{
-            text-align: center;
-            margin: auto;
-            font-size: 1.2rem;
-        }
-        p:hover{
-            color: black;
-            background-color: white;
         }
     }
 }
@@ -170,7 +151,8 @@ section{
     }
     p{
         color: white;
-        font-size: 2.4rem;
+        font-size: 2.2rem;
+        font-family: Arial, Helvetica, sans-serif;
         text-shadow: 2px 2px 2px rgb(29, 55, 29);
         letter-spacing: 1px;
         line-height: 2;
@@ -183,9 +165,6 @@ section{
         opacity: 1;
     }  
     h1{
-        background-color: black;
-        border: 2px solid white;
-        border-radius: 20px 0 20px 0;
         text-align: center;
         font-size: 2.5rem;
         font-family: cursive;

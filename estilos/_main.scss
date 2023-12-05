@@ -1,22 +1,35 @@
 /*CONTACTO*/
-
+.main-img{
+    background-image: url("../img/contacto-body.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contacto-titulo{
+    h1{
+        color: white;
+        margin: 20px auto;
+        font-family: cursive;
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 2px rgb(116, 116, 116);
+        letter-spacing: 3px;
+        word-spacing: 5px;
+    }
+}
+.contacto-frase{
+    h1{
+        padding: 20px;
+        text-align: center;
+        color: white;
+        font-size: 2rem;
+        text-shadow: 2px 2px 2px black;
+        letter-spacing: 3px;
+        word-spacing: 5px;
+    }
+}
 .contacto_main{
-    background:linear-gradient(90deg, #1B4D3E, #ACE1AF);
     margin-top: 20px;
     height: 650px;
     background-size: 100%;
-    
-    div{
-        h1{
-            background-color: black;
-            border: 2px solid rgb(209, 255, 203);
-            border-radius: 20px 0 20px 0;
-            text-transform: uppercase;
-            text-align: center;
-            color: white;
-            font-family:cursive;
-        }
-    }
 }
 .form-flex{
     display: flex;
