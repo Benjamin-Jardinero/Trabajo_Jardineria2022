@@ -1,63 +1,58 @@
 /*INDEX - COLUMNA*/
 .columna{
-    div{ /*Div Padre*/
-        display: flex;
+    .container-services{ /*Div Padre*/
         width: 100%;
-        margin: 5px auto;
-        .columna__div--img{
-            width: 50%;
-            img{
-                width: 100%;
-                border-radius: 20px 0 20px 0;
-            }
-        }
+        color: white;
         .columna__div--text{
-            display: inline-block;
-            width: 50%;
+            margin: 20px auto;
             .titulo-columna{
-                width: 100%;
-                margin-left: 3px;
-            }
-            h1{
-                width: 100%;
-                text-align: center;
-                margin-bottom: 30px;
-                font-family: cursive;
-                border: 2px solid rgb(125, 179, 125);
-                border-radius: 0 20px 0 20px;
-                background-color: rgb(7, 29, 2);
-            }
-            ul{
-                list-style: circle;
-                li{
-                    letter-spacing: 2px;
-                    margin-left: 5px;
-                    font-size: 2rem;
-                    text-shadow: 2px 2px 2px rgb(72, 72, 72);
+                h1{
+                    width: 100%;
+                    margin: 20px auto;
+                    font-family: cursive;
                 }
             }
-            color: white;
+            .columna-acordion{
+                width: 80%;
+                margin: 0 20px;
+            }
+        }
+        .columna__div--img{
+            width: 50%;
+            margin: 0 auto;
+            img{
+                width: 100%;
+                height: 500px;
+            }
         }
     }
 }
-@media(max-width: 767px){
+
+
+ @media(max-width: 580px){
+     .columna{
+         .container-services{
+             .columna__div--text{
+                 width: 100%;
+                 margin: 0;
+                 h1{
+                    margin: 0;
+                 }
+                 .columna-acordion{
+                    width: 100%;
+                    margin: 0;
+                }
+             }
+         }
+     }
+ }
+
+ @media(max-width: 720px){
     .columna{
-        width: 100%;
-        div{
-            display: inline-block;
+        .container-services{
             .columna__div--img{
                 width: 100%;
             }
-            .columna__div--text{
-                width: 100%;
-                h1{
-                    margin: 5px auto;
-                }
-                li:hover{
-                    color: rgb(125, 179, 125);
-                }
-            }
-
         }
-    }
-}
+    }    
+ }

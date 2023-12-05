@@ -3,10 +3,6 @@ $green:   #198754;
     margin: 0;
     padding: 0;
 }
-
-.body__principal{
-    background-color: rgb(43, 65, 43)
-}
 .logo{
     width: 120px;
     height: 120px;
@@ -25,12 +21,12 @@ $green:   #198754;
 }
 .posicion-fixed{
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 5px;
+    right: 5px;
     background-color: #198754;
-    padding: 5px;
+    padding: 10px;
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
     a{
         text-decoration: none;
         color: white;

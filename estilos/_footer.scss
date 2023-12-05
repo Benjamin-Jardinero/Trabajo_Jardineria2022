@@ -41,10 +41,11 @@ footer{
             margin: 20px;
         }
         a{
+            text-decoration: none;
             color: white;
-        :hover{
-            color: rgb(181, 255, 181);
-        }
+            :hover{
+                color: rgb(181, 255, 181);
+            }
         }
     }
     .footer_div-3{
