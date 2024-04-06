@@ -2,8 +2,7 @@
 
 Esto es una pagina web creada por mi, yo me dedique un buen tiempo a la jardineria y queria hacerme esta pagina para poder atraer mas clientes, mostrando mis trabajos y numeros para contactarme.
 
-![jardineria](https://github.com/Programador-Benja/Trabajo_Jardineria2022/assets/98435496/b4158c42-c3f6-4440-b140-edcb16411917)
-
+![proyecto 1](https://github.com/Programador-Benja/Trabajo_Jardineria2022/assets/98435496/d98ee37b-4859-423a-bff5-016b755fae6c)
 
 ### Instalación 🔧
 
